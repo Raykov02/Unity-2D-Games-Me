@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SideBound
+  - player
+  - Enemy
+  - TriggerGround
+  - Meteor
+  - grounding
+  - ScreenShake
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Destroyer
+  - Water
+  - UI
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: bg
+    uniqueID: 997917633
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: above
+    uniqueID: 1640255821
+    locked: 0
