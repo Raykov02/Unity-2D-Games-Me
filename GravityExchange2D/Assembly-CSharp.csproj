@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0AB39ACD-2EE6-E15C-4D2B-642E1651D37D}</ProjectGuid>
+    <ProjectGuid>{5D368FD9-E586-2C87-093C-FBD3F31D9EDD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,7 +53,7 @@
     <UnityVersion>2020.3.14f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\responsible\CameraAnchor.cs" />
@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\EnemyScripts\MoveEnemy1.cs" />
     <Compile Include="Assets\Scripts\CharsCripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\CharsCripts\EchoEffect.cs" />
+    <Compile Include="Assets\Scripts\BGSCRIPTS\Shake.cs" />
     <Compile Include="Assets\Scripts\BGSCRIPTS\ShitSpawner.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\GroundEnemySpawner.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\GroundEnemy.cs" />
@@ -76,7 +77,6 @@
     <Compile Include="Assets\Scripts\ButtonScripts\Play.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\GroundEnemy1.cs" />
     <Compile Include="Assets\Scripts\GameplayScripts\GameplayController.cs" />
-    <Compile Include="Assets\Scripts\BGSCRIPTS\Shake.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\FOnts\license.txt" />
@@ -736,7 +736,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{3B28E933-93C8-1410-2519-E2DF29C00F27}</Project>
+      <Project>{818D4D52-4C7C-C8A7-179F-8F91CD379705}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
